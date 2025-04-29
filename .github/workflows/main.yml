@@ -1,4 +1,9 @@
 name: RKNN Model Conversion Test
+
+on:
+  workflow_dispatch:
+
+
 jobs:
   build:
     runs-on: ubuntu-latest
